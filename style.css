@@ -1,0 +1,17 @@
+#container{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.btn {
+    width: 100px; 
+    margin: 10px 0px;
+}
+
+#display{
+    background-color: white;
+}
