@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
 
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
     <!-- css -->
     <link rel="stylesheet" href="./style.css">
 
@@ -22,15 +27,17 @@
                 </div>
             </div>
 
+            <div id="productName" class="row"><p>calc-X</p></div>
+
             <div class="row">
                 <div class="col-3">
-                    <button class="btn btn-light text-black" onclick="updateDisplay('(')">(</button>
+                    <button class="btn btn-warning text-black" onclick="updateDisplay('(')">(</button>
                 </div>
                 <div class="col-3">
-                    <button class="btn btn-light text-black" onclick="updateDisplay(')')">)</button>
+                    <button class="btn btn-warning text-black" onclick="updateDisplay(')')">)</button>
                 </div>
                 <div class="col-3">
-                    <button class="btn btn-light text-black" onclick="updateDisplay('%')">%</button>
+                    <button class="btn btn-warning text-black" onclick="updateDisplay('%')">%</button>
                 </div>
                 <div class="col-3">
                     <button class="btn btn-danger text-black" onclick="clearDisplay()">AC</button>

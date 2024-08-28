@@ -14,3 +14,10 @@
 #display{
     background-color: white;
 }
+
+#productName p{
+    font-family: "Exo 2", sans-serif;
+    color: white;
+    display: flex;
+    align-items: center;
+}
