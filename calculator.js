@@ -15,5 +15,13 @@ function clearDisplay(){
 
 function findResult(){
     const displayElement=document.getElementById('display')
-    displayElement.innerHTML=eval(display.innerHTML)
+    try{
+        displayElement.innerHTML=eval(display.innerHTML)
+    }
+    catch(error){
+        displayElement.innerHTML='error'
+        setTimeout(()=>{
+            displayElement.innerHTML=0
+        },2000)
+    }
 }
